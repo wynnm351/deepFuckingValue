@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="bg-black">
-      <div className=" py-32 max-w-[65rem] space-y-24 md:space-y-0  mx-auto text-white flex flex-col  md:flex-row">
+    <div className="bg-milkWhite text-customBlack">
+      <div className=" py-32 max-w-[65rem] space-y-24 md:space-y-0  mx-auto text-customBlack flex flex-col  md:flex-row">
         <div className=" w-full px-5 md:px-0 md:ml-5 text-center flex justify-center items-start ">
           <Image
             src={"/keith-gill.gif"}

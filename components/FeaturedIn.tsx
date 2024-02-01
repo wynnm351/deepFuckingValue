@@ -31,10 +31,10 @@ export default function FeaturedIn() {
                   Follow us
                 </p>
                 <div className="flex gap-4  items-center text-black">
-                  <div className="md:p-1.5 p-2 text-4xl md:text-2xl hover:scale-110 cursor-pointer rounded-md bg-[#1fe0b0]">
+                  <div className="md:p-1.5 p-2 text-4xl md:text-2xl hover:scale-110 cursor-pointer rounded-md bg-customRed">
                     <FaXTwitter />
                   </div>
-                  <div className="md:p-1.5 p-2 flex text-4xl md:text-2xl hover:scale-110 cursor-pointer rounded-full bg-[#1fe0b0]">
+                  <div className="md:p-1.5 p-2 flex text-4xl md:text-2xl hover:scale-110 cursor-pointer rounded-full bg-customRed">
                     <BiLogoTelegram />
                   </div>
                 </div>

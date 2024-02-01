@@ -12,7 +12,7 @@ export default function HeaderSection() {
         <button className="button-1 px-5 w-full lg:w-auto py-2 text-lg rounded-md text-black">
           Raydium
         </button>
-        <button className="px-5 py-2 text-xl w-full lg:w-auto rounded-md border border-[#1fe0b0] text-[#1fe0b0]">
+        <button className="px-5 py-2 text-xl w-full lg:w-auto rounded-md border border-customRed text-customRed">
           DEXSCREENER
         </button>
       </div>
