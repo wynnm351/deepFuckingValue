@@ -64,13 +64,6 @@ body {
   );
 }
 
-@media (max-width: 768px) {
-  .header-text {
-    -webkit-text-stroke: 3px;
-    -webkit-text-stroke-color: #1fe0b0;
-  }
-}
-
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: relative;
@@ -80,7 +73,7 @@ body {
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #1fe0b0;
+  background: rgba(231, 67, 42, 1);
 }
 
 /* Color/shape of burger icon bars on hover*/

@@ -11,8 +11,10 @@ export default function NavBar() {
   ];
 
   return (
-    <div className="flex  fixed  w-full items-center py-7 px-7   bg-customBlack text-white justify-between">
-      <div className="w-16 h-16 bg-red-200 rounded-full"></div>
+    <div className="flex  fixed  w-full items-center py-7 px-5 sm:px-16   bg-customBlack text-white justify-between">
+      <div className="w-20 h-20 bg-red-200 rounded-full">
+        <Image src={"/about.png"} width={500} height={500} alt="logo" />
+      </div>
       <div className=" hidden md:flex gap-5">
         {NavigatonItem.map((item) => (
           <p
