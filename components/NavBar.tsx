@@ -23,7 +23,7 @@ export default function NavBar() {
           </p>
         ))}
       </div>
-      <div className="flex lg:gap-4 items-center text-black">
+      <div className="flex gap-5 lg:gap-4 items-center text-black">
         <div className="p-1.5 hover:scale-110 cursor-pointer rounded-md bg-[#1fe0b0]">
           <FaXTwitter size={25} />
         </div>

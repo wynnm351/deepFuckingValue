@@ -1,6 +1,6 @@
 export default function HeaderSection() {
   return (
-    <div className="flex text-white pt-48 flex-col items-center min-h-[46.875rem] bg-cover bg-no-repeat bg-[url('/background-1.png')]">
+    <div className="flex text-white pt-48 flex-col items-center min-h-[46.875rem] w-full bg-cover bg-no-repeat bg-[url('/background-1.png')]">
       <p className="uppercase font-light mb-4 text-3xl">
         Never Fucking Selling
       </p>

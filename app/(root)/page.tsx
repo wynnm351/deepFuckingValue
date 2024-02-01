@@ -6,7 +6,7 @@ import Tokenomics from "@/components/Tokenomics";
 
 export default function Home() {
   return (
-    <div>
+    <div className="max-w-[100vw]">
       <NavBar />
       <HeaderSection />
       <About />
