@@ -16,8 +16,8 @@ export default function FeaturedIn() {
             Digital <br /> Journey
           </p>
         </div>
-        <div className="mt-28 flex px-10 items-start">
-          <div className=" w-[45%]  relative z-50 flex-col pr-9 gap-5   flex justify-center items-center   ">
+        <div className="mt-28 flex-col sm:flex-row flex px-10 items-start">
+          <div className=" w-full sm:w-[45%]  relative z-50 flex-col pr-9 gap-5   flex justify-center items-center   ">
             <div className="relative">
               <Image
                 className="relative"
@@ -27,21 +27,21 @@ export default function FeaturedIn() {
                 alt="mg"
               />
               <div className="absolute sm:gap-4 w-full flex flex-col items-center top-[50%] left-[50%] -translate-x-[55%] -translate-y-[50%] ">
-                <p className="font-kurri text-xl sm:text-3xl lg:text-5xl  about-token">
+                <p className="font-kurri text-5xl sm:text-3xl lg:text-5xl  about-token">
                   Follow us
                 </p>
                 <div className="flex gap-4  items-center text-black">
-                  <div className="md:p-1.5 text-lg md:text-2xl hover:scale-110 cursor-pointer rounded-md bg-[#1fe0b0]">
+                  <div className="md:p-1.5 p-2 text-4xl md:text-2xl hover:scale-110 cursor-pointer rounded-md bg-[#1fe0b0]">
                     <FaXTwitter />
                   </div>
-                  <div className="md:p-1.5 p-1 flex text-lg md:text-2xl hover:scale-110 cursor-pointer rounded-full bg-[#1fe0b0]">
+                  <div className="md:p-1.5 p-2 flex text-4xl md:text-2xl hover:scale-110 cursor-pointer rounded-full bg-[#1fe0b0]">
                     <BiLogoTelegram />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="relative w-[65%]  z-[10]">
+          <div className="relative w-full sm:w-[65%]  z-[10]">
             <Image
               className="object-cover w-[30rem] md:w-[65rem]"
               src={"/about.png"}

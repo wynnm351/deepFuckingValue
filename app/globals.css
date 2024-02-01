@@ -13,6 +13,9 @@
     text-wrap: balance;
   }
 }
+body {
+  width: 100vw;
+}
 
 .button-1 {
   background: linear-gradient(
