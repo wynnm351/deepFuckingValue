@@ -6,7 +6,7 @@ export default function FeaturedIn() {
   return (
     <div className="bg-[#0A0A0A]">
       <div className="bg-[#0A0A0A] max-w-[65rem] mx-auto py-20 flex flex-col items-center text-white">
-        <h2 className="text-6xl uppercase font-kurri font-bold about-text">
+        <h2 className="text-6xl uppercase font-kurri leading-relaxed font-bold mx-6 text-center about-text">
           As Featured In
         </h2>
         <div className="uppercase items-center gap-6 px-10 flex-wrap flex mt-28 text-5xl justify-center sm:justify-between w-full">

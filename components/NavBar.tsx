@@ -11,7 +11,7 @@ export default function NavBar() {
   ];
 
   return (
-    <div className="flex sm:mx-7 fixed  w-[95%] items-center py-7 px-5 rounded-xl bg-black text-white justify-between">
+    <div className="flex lg:mx-7 fixed  w-[95%] items-center py-7 px-5 rounded-xl bg-black text-white justify-between">
       <div className="w-16 h-16 bg-red-200 rounded-full"></div>
       <div className=" hidden md:flex gap-5">
         {NavigatonItem.map((item) => (
@@ -23,7 +23,7 @@ export default function NavBar() {
           </p>
         ))}
       </div>
-      <div className="flex gap-4 items-center text-black">
+      <div className="flex lg:gap-4 items-center text-black">
         <div className="p-1.5 hover:scale-110 cursor-pointer rounded-md bg-[#1fe0b0]">
           <FaXTwitter size={25} />
         </div>
