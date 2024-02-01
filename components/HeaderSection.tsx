@@ -1,6 +1,6 @@
 export default function HeaderSection() {
   return (
-    <div className="flex text-white pt-48 flex-col items-center min-h-[46.875rem] w-full bg-cover bg-no-repeat bg-[url('/background-1.png')]">
+    <div className="flex text-white pt-48 flex-col items-center min-h-[46.875rem] max-w-full bg-cover bg-no-repeat bg-[url('/background-1.png')]">
       <p className="uppercase font-light mb-4 text-3xl">
         Never Fucking Selling
       </p>
@@ -8,7 +8,7 @@ export default function HeaderSection() {
         Deep Fucking value
       </h1>
       <p className="mt-7">The Deep Fucking Value -$DEEP Solana Memecoin</p>
-      <div className="flex font-kurri justify-center px-7 w-full font-thin mt-12 gap-6">
+      <div className="flex font-kurri justify-center px-7  font-thin mt-12 gap-6">
         <button className="button-1 px-5 w-full lg:w-auto py-2 text-lg rounded-md text-black">
           Raydium
         </button>
