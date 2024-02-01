@@ -1,6 +1,6 @@
 export default function Tokenomics() {
   return (
-    <div className="bg-milkWhite  flex flex-col items-center py-24 text-customBlack ">
+    <div className="bg-customBlack  flex flex-col items-center py-24 text-milkWhite ">
       <h1 className="uppercase text-6xl font-kurri about-text ">Tokenomics</h1>
       <div className="px-7 py-9 bg-gray-950 shadow-lg rounded-md">
         <p className="text-3xl about-token font-kurri mb-6">About Token</p>

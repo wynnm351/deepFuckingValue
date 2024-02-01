@@ -28,7 +28,7 @@ const kurri = localFont({
 
 export const metadata: Metadata = {
   title: "Deep Fucking Value",
-  description: "A app to trade with you for your cripto",
+  description: "A app to trade with you for your crypto",
 };
 
 export default function RootLayout({
